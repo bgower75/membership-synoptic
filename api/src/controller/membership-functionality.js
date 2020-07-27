@@ -44,7 +44,8 @@ async function createNewMember(req, res) {
         empid: req.body.empid,
         name: req.body.name,
         email: req.body.email,
-        mobile: req.body.mobile
+        mobile: req.body.mobile,
+        balance: req.body.balance
     });
     try{
         const errors = await validationReturned(req);
@@ -70,6 +71,7 @@ async function updateMember(req, res) {
         returnedMember.name = req.body.name || returnedMember.name;
         returnedMember.email = req.body.email || returnedMember.email;
         returnedMember.mobile = req.body.mobile || returnedMember.mobile;
+        returnedMember.balance = req.body.balance + returnedMember.balance || returnedMember.balance;
 
         const errors = await validationReturned(req);
         if(!errors.isEmpty()) {

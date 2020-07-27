@@ -44,7 +44,12 @@ function validatePut() {
             .isNumeric().withMessage('Please provide a valid mobile number')
             .isLength({ min: 11, max: 11 }).withMessage('Mobile number must contain 11 digits')
             .isOptional({ checkFalsy: true})
-            .trim()
+            .trim(),
+        validate('balance')
+            .isNumeric().withMessage('Please enter a valid amount')
+            .isLength({ min: 4, max: 5 }).withMessage('Amount must be to 2 decimal places, no more than 5 digits long')
+            .isOptional({ checkFalsy: true})
+            .trim(),
     ]
 };
 
