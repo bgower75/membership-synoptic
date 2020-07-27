@@ -1,4 +1,4 @@
-const validationn = {
+const validation = {
     /* v is for the value being checked */
     empid: (v) => {
         return /^[0-9]$/.test(v)
@@ -17,4 +17,4 @@ const validationn = {
     }
 };
 
-module.exports =  validation;
+module.exports =  { validation };

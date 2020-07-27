@@ -13,7 +13,7 @@ controller.get('/', async(req, res) => {
 controller.get('/:id', async(req, res) => {
     getMemberById(req, res);
 });
-controller,put('/:id', validatePut(), async(req,res) => {
+controller.put('/:id', validatePut(), async(req,res) => {
     updateMember(req, res);
 });
 controller.delete('/:id', async(req, res) => {
