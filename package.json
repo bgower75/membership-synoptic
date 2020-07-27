@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/bgower75/membership-synoptic#readme",
   "devDependencies": {
+    "eslint": "^7.5.0",
     "jest": "^26.1.0",
     "nodemon": "^2.0.4",
     "winston": "^3.3.3"
@@ -30,6 +31,7 @@
     "express": "^4.17.1",
     "express-validator": "^6.6.0",
     "mongo-sanitize": "^1.1.0",
+    "mongodb": "^3.5.9",
     "mongoose": "^5.9.25",
     "mongoose-sanitize": "^1.0.1"
   }
