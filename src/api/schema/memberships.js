@@ -41,16 +41,26 @@ const membershipSchema = mongoose.Schema({
         type: String,
         required: [true, 'Please enter your pin number'],
         trim: true
-    }
-    // balance: {
-    //     type: String,
-    //     validate: {
-    //         validator: validation.balance,
-    //         message: props => `${props.value} please enter a valid amount`,
-    //         // default: '00.00'
-    //     },
-    //     trim: true
-    // }
+    },
+    balance: {
+        type: Number,
+        get: getPrice,
+        set: setPrice,
+        // validate: {
+        //     validator: validation.balance,
+        //     message: props => `${props.value} please enter a valid amount`,
+            // default: '00.00'
+        // default: 00.00,
+        trim: true
+        }
 });
+
+function getPrice(num) {
+    return(num/100).toFixed(2);
+};
+
+function setPrice(num) {
+    return num*100;
+}
 
 module.exports = membershipSchema;

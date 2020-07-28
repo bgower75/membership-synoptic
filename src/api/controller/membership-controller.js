@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const Router = express.Router;
 const controller = new Router();
-const { getAllMemberships, getMemberById, createNewMember, deleteMember, updateMember } = require('./membership-functionality')
+const { getAllMemberships, getMemberById, createNewMember, deleteMember, updateMember, authenticate } = require('./membership-functionality')
 
 // const userService = require('./user.service');
 // const logger = require('../../utils/logger');
@@ -19,6 +19,9 @@ controller.get('/', async(req, res) => {
 controller.get('/:id', async(req, res) => {
     getMemberById(req, res);
 });
+controller.post('/authenticate', async(req, res) => {
+    authenticate(req,res);
+})
 controller.put('/:id', async(req,res) => {
     updateMember(req, res);
 });
