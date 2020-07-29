@@ -2,7 +2,7 @@ require('dotenv').config({silent: true}); //this allows the app to continue runn
 const mongoose = require('mongoose');
 const server = require('./api');
 
-mongoose.connect(`mongodb://localhost:27019/memberships`, {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect(process.env.DATABASE, {useNewUrlParser: true, useUnifiedTopology: true})
     .then(() => {
         console.log('connected to database');
         server.listen(process.env.PORT, () => {

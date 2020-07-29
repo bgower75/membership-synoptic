@@ -1,38 +1,38 @@
 const mongoose = require('mongoose');
-// const { validation } = require('./schema-validation');
+const { validation } = require('./schema-validation');
 
 const membershipSchema = mongoose.Schema({
     empid: {
         type: Number,
-        // validate: {
-        //     // validator: validation.empid,
-        //     message: props => `${props.value} please enter a valid employee ID`
-        // },
+        validate: {
+            validator: validation.empid,
+            message: props => `${props.value} please enter a valid employee ID`
+        },
         required: [true, 'please enter your Employee ID']
     },
     name: {
         type: String,
-        // validate: {
-        //     // validator: validation.name,
-        //     message: props => `${props.value} please enter a valid name`
-        // },
+        validate: {
+            validator: validation.name,
+            message: props => `${props.value} please enter a valid name`
+        },
         required: [true, 'please enter your name']
     },
     email: {
         type: String,
-        // validate: {
-        //     // validator: validation.email,
-        //     message: props => `${props.value} please enter a valid .com email address`
-        // },
+        validate: {
+            validator: validation.email,
+            message: props => `${props.value} please enter a valid .com email address`
+        },
         required: [true, 'please enter a valid .com email address'],
         trim: true
     },
     mobile: {
         type: Number,
-        // validate: {
-        //     // validator: validation.mobile,
-        //     message: props => `${props.value} please enter a valid mobile number`
-        // },
+        validate: {
+            validator: validation.mobile,
+            message: props => `${props.value} please enter a valid mobile number`
+        },
         required: [true, 'please enter a valid mobile number'],
         trim: true
     },
@@ -45,13 +45,13 @@ const membershipSchema = mongoose.Schema({
         type: Number,
         get: getPrice,
         set: setPrice,
-        // validate: {
-        //     validator: validation.balance,
-        //     message: props => `${props.value} please enter a valid amount`,
-            // default: '00.00'
-        // default: 00.00,
+        validate: {
+            validator: validation.balance,
+            message: props => `${props.value} please enter a valid amount`,
+        default: 0000,
         trim: true
         }
+    }
 });
 
 function getPrice(num) {
