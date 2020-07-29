@@ -28,7 +28,11 @@ const membershipSchema = mongoose.Schema({
         trim: true
     },
     mobile: {
-        type: Number,
+        type: String,
+        validate: {
+            validator: validation.mobile,
+            message: props => `${props.value} please enter a valid mobile number`
+        },
         required: [true, 'please enter a valid mobile number'],
         trim: true
     },

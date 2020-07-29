@@ -9,6 +9,9 @@ const validation = {
     },
     email: (v) => {
         return /[a-z]+[.]+[a-z]+@+[a-z]+[.]+com/.test(v)
+    },
+    mobile: (v) => {
+        return /^[0-9]+[0-9]+[0-9]+[0-9]+[0-9]+[0-9]+[0-9]+[0-9]+[0-9]+[0-9]+[0-9]$/.test(v)
     }
 };
 
