@@ -28,16 +28,15 @@ async function getMemberById(req, res) {
     let returnedMember
     try {
         returnedMember = await Member.findById(req.params.id)
-        if (returnedMember && bcrypt.compareSync(req.body.pin, returnedMember.pin)) {
-            const token =  jwt.sign({ sub: returnedMember.id}, config.secret, {expiresIn: '30d'});
-            console.log(token)
-            return {
-                ...returnedMember.toJSON(),
-                token
-            };
+        returnedPin = comparePin(req.body.pin, returnedMember.pin)
+        if(returnedPin) {
+            let message = `Hello ${returnedMember.name}`
+            res.status(200).send(message + ' ' + returnedMember);
+        } else {
+            res.status(400).json({
+                "message": `Pin incorrect`
+            })
         }
-        let message = `Hello ${returnedMember.name}`
-        res.status(200).send(message + ' ' + returnedMember);
     }
     catch(err) {
         if(!returnedMember) {
@@ -155,6 +154,17 @@ async function authenticate(req, res) {
         };
     };
 }
+
+async function comparePin(userPin, hash) {
+    bcrypt.compareSync(userPin, hash, function (err){
+        if(err) {
+            return false
+        } else {
+            return true
+        }
+    })
+}
+
 module.exports = {
     getAllMemberships,
     getMemberById,
