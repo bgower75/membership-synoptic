@@ -1,0 +1,234 @@
+openapi: "3.0.1"
+info:
+  version: 0.0.1
+  title: "Membership System App API"
+  
+servers:
+  - url: http://localhost:3010/api/
+
+tags:
+  - name: Memberships
+    description: Membership Service
+    
+paths:
+  /memberships:
+    get:
+      tags:
+        - Members
+      description: "Retrieves all members from the database"
+      summary: "Get all members"
+      parameters:
+        - name: "memberId"
+          in: "query"
+          description: "return a member by id"
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                type: "string"
+                items:
+                  $ref: "#/components/schemas/returnBody"
+        404:
+          description: "Member not found"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/404NotFound'
+        500:
+          description: "Catch all error"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/500ServerError'
+    post:
+      tags:
+        - Members
+      description: "Creates a member to be stored in the database"
+      summary: "Create a Member"
+      requestBody:
+        description: "Create Member Body"
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/requestBody"
+      responses:
+        201:
+          description: "Created"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/returnBody"
+        400:
+          description: "Wrong format to create a new member"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/400BadRequest'
+        500:
+          description: "Catch all error"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/500ServerError'
+                
+  /memberships/{memberId}:
+    put: 
+      tags:
+        - Members
+      description: "Updates a member from the database by their unique ID"
+      summary: "Update Member"
+      parameters:
+        - name: "memberId"
+          in: "path"
+          required: true
+          description: "Member id"
+          schema:
+            type: "string"
+      requestBody:
+        description: "Update Member Body"
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/requestBody"
+      responses:
+        200:
+          description: "Successful"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/returnBody"
+        404:
+          description: "Card not registered. Please register your card."
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/404NotFound'
+        400:
+          description: "wrong format to update a member"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/400BadRequest'
+    delete:
+      tags:
+        - Members
+      description: "Deletes a single member from the database by their unique ID"
+      summary: "Delete a Member by ID"
+      parameters:
+        - name: "memberId"
+          in: "path"
+          description: "Member id to delete"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/deleted'
+        404:
+          description: "No member found"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/404NotFound'
+        500:
+          description: "Catch all error"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/500ServerError'
+components:
+  schemas:
+    returnBody:
+      type: "object"
+      properties:
+        id:
+          type: "string"
+          example: "5e37sdfjbwe9"
+        message:
+          type: "string"
+          example: "Hello Member One"
+        name:
+          type: "string"
+          example: "Joe Bloggs"
+        balance:
+          type: "number"
+          example: 0000
+        empid:
+          type: "number"
+          example: 1
+        email:
+          type: "string"
+          example: joe.bloggs@test.com
+        mobile:
+          type: "string"
+          example: "01234567890"
+        pin:
+          type: "string"
+          example: "$2b$10$vfUSEhcov8w18P4Ui/Slh.4P8RQUYhewyUBwXSC8fxuwlUk1EhUke"
+    requestBody:
+      type: "object"
+      properties:
+        message:
+          type: "string"
+          example: "Hello Member Two"
+        name:
+          type: "string"
+          example: "Joe Bloggs Again"
+        balance:
+          type: "number"
+          example: 1000
+        empid:
+          type: "number"
+          example: 2
+        email:
+          type: "string"
+          example: joe.bloggsagain@test.com
+        mobile:
+          type: "string"
+          example: "01234567890" 
+        pin:
+          type: "string"
+          example: "$2b$10$vfUSEhcov8w18P4Ui/Slh.4P8RQUYhewyUBwXSC8fxuwlUk1EhUke"
+    badRequest:
+      type: "object"
+      properties:
+        message:
+          example: [ 
+            "1234Sian",
+            "Invalid value",
+            "name",
+            "body",
+          ]
+    deleted:
+      type: "object"
+      properties:
+        message:
+          example: "*memberId* has been successfully deleted"
+    notFound:
+      type: "object"
+      properties:
+        message:
+          example: "No members found"
+    standardError:
+      type: "object"
+      properties:
+        message:
+          example: "Unable to complete request"
+
+  responses:
+    400BadRequest:
+      $ref: "#/components/schemas/badRequest"
+    404NotFound:
+      $ref: "#/components/schemas/notFound"
+    500ServerError:
+      $ref: "#/components/schemas/standardError"

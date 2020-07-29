@@ -15,7 +15,7 @@ async function getAllMemberships(req, res) {
                 "message": "No members found"
             });
         } else {
-            res.send(returnedMembers)
+            res.status(200).send(returnedMembers)
         };
     }
     catch(err) {
@@ -36,7 +36,8 @@ async function getMemberById(req, res) {
                 token
             };
         }
-            res.send(returnedMember);
+        let message = `Hello ${returnedMember.name}`
+        res.status(200).send(message + ' ' + returnedMember);
     }
     catch(err) {
         if(!returnedMember) {
@@ -71,7 +72,7 @@ async function createNewMember(req, res) {
             }else {
                 newMember.save();
                 let message = `Hello ${newMember.name}`
-                res.status(200).send(message + ' ' + newMember);
+                res.status(201).send(message + ' ' + newMember);
             }
         })
     }
@@ -100,7 +101,7 @@ async function updateMember(req, res) {
                });
            }else{
                foundMember.save()
-               res.send(foundMember)
+               res.status(200).send(foundMember)
            }
        })
    }
