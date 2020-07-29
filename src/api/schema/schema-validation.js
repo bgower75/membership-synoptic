@@ -9,12 +9,6 @@ const validation = {
     },
     email: (v) => {
         return /[a-z]+[.]+[a-z]+@+[a-z]+[.]+com/.test(v)
-    },
-    mobile: (v) => {
-        return /^(?:0|\+?44)(?:\d\s?){9,10}$/.test(v)
-    },
-    balance: (v) => {
-        return /^[0-9]+[0-9]+[.]+[0-9]+[0-9]$/.test(v)
     }
 };
 
