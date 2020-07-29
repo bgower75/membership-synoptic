@@ -28,7 +28,7 @@ const membershipSchema = mongoose.Schema({
         trim: true
     },
     mobile: {
-        type: Number,
+        type: String,
         validate: {
             validator: validation.mobile,
             message: props => `${props.value} please enter a valid mobile number`
@@ -45,12 +45,8 @@ const membershipSchema = mongoose.Schema({
         type: Number,
         get: getPrice,
         set: setPrice,
-        validate: {
-            validator: validation.balance,
-            message: props => `${props.value} please enter a valid amount`,
-        default: 0000,
         trim: true
-        }
+        
     }
 });
 
