@@ -7,6 +7,6 @@ router.use((req, res, next) => {
     next();
 })
 
-router.use('/memberships', require('../controller/membership-controller'));
+router.use('/memberships', require('../../../api/src/controller/membership-controller'));
 
 module.exports = router;
