@@ -90,10 +90,10 @@ async function updateMember(req, res) {
    foundMember.mobile = req.body.mobile || foundMember.mobile
     newBalance = parseInt((req.body.balance).toFixed(2)) + parseInt(foundMember.balance)
     foundMember.balance = newBalance || foundMember.balance
-   
    try{
        foundMember.validate((err)  => {
            if(err) {
+               console.log(err)
             // logger.error(`Wrong format to update a member`);
                res.status(400).json({
                   "message": `wrong format to update a member`
