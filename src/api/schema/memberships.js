@@ -43,6 +43,10 @@ const membershipSchema = mongoose.Schema({
     },
     balance: {
         type: Number,
+        validate: {
+            validator: validation.balance,
+            message: props => `${props.value} please enter a valid amount`
+        },
         get: getPrice,
         set: setPrice,
         trim: true
