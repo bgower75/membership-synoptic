@@ -62,14 +62,16 @@ async function getMemberByCardId(req, res) {
     };
 };
 async function createNewMember(req, res) {
+    let balance = 0
     const newMember = new Member({
-        empid: req.body.empid,
+        empid: 0 + req.body.empid,
         name: req.body.name,
         email: req.body.email,
         mobile: req.body.mobile,
         pin: req.body.pin,
-        balance: req.body.balance
+        balance: balance
     });
+    console.log(newMember)
     try{
         let hash = bcrypt.hashSync(req.body.pin, 10);
         let cardId = cardIdGenerator(16)

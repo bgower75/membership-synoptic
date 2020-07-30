@@ -25,7 +25,7 @@ controller.post('/authenticate', async(req, res) => {
 controller.put('/:cardId', async(req,res) => {
     updateMember(req, res);
 });
-controller.delete('/:id', async(req, res) => {
+controller.delete('/:cardId', async(req, res) => {
     deleteMember(req, res);
 });
 
