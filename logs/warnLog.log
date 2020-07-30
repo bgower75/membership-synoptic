@@ -1,0 +1,4 @@
+{"message":"Unable to complete request TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be one of type string or Buffer. Received type undefined","level":"error","service":"user-service","timestamp":"30-07-2020 09:00:45"}
+{"message":"Unable to complete request TypeError: res.write(...).json is not a function","level":"error","service":"user-service","timestamp":"30-07-2020 09:01:44"}
+{"message":"Unable to complete request Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client","level":"error","service":"user-service","timestamp":"30-07-2020 09:02:34"}
+{"message":"Unable to complete request Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client","level":"error","service":"user-service","timestamp":"30-07-2020 09:03:12"}
