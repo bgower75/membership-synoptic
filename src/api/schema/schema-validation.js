@@ -13,8 +13,11 @@ const validation = {
     mobile: (v) => {
         return /^[0-9]+$/.test(v)
     },
-    balance: (v) => {
-        return /^[0-9]+[0-9]+[.]+[0-9]+[0-9]$/
+    // balance: (v) => {
+    //     return /^[0-9]+[0-9]+[.]+[0-9]+[0-9]$/
+    // }
+    cardId: (v) => {
+        return /^[A-Za-z-' 0-9]+$/.test(v)
     }
 };
 
