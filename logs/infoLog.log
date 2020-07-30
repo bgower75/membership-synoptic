@@ -631,3 +631,20 @@
 {"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:46:34"}
 {"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:46:34"}
 {"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:46:34"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 13:28:16"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 13:28:16"}
+{"message":"New Card nP3pOi8tAEXoATMt created","level":"info","service":"user-service","timestamp":"30-07-2020 13:28:22"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 13:28:26"}
+{"message":"Member with id ssPfodmCnTbW3wm3 found","level":"info","service":"user-service","timestamp":"30-07-2020 13:28:35"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 13:28:35"}
+{"message":"Member with id ssPfodmCnTbW3wm3 found","level":"info","service":"user-service","timestamp":"30-07-2020 13:28:56"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 13:28:56"}
+{"message":"E7sKQ5tKNyxIfxZ4 balance updated successfully","level":"info","service":"user-service","timestamp":"30-07-2020 13:29:01"}
+{"message":"Card t4ccLw2yiYl24UXW found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 13:29:05"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 15:32:32"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 15:32:32"}
+{"message":"New Card rtIB84rzgpXZAsOY created","level":"info","service":"user-service","timestamp":"30-07-2020 15:32:37"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 15:32:37"}
+{"message":"Card 5f1fce800d0a516c94ce0b6f found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 15:32:37"}
+{"message":"Member with id 5f204c1920773bc2a9b77636 found","level":"info","service":"user-service","timestamp":"30-07-2020 15:32:37"}
+{"message":"No card found with id 5f204c1920773bc2a9b77636 TypeError: Cannot read property 'pin' of null","level":"error","service":"user-service","timestamp":"30-07-2020 15:32:37"}
