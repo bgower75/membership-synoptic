@@ -38,3 +38,4 @@
 {"message":"Unable to complete request TypeError: Cannot read property 'cardId' of null","level":"error","service":"user-service","timestamp":"30-07-2020 12:14:41"}
 {"message":"No card found with id Qf4pxv5yhCqMU1YY TypeError: Cannot read property 'pin' of null","level":"error","service":"user-service","timestamp":"30-07-2020 12:22:38"}
 {"message":"No card found with id Wzi12T8R8ZOmj8Nv TypeError: Cannot read property 'pin' of null","level":"error","service":"user-service","timestamp":"30-07-2020 12:27:35"}
+{"message":"No card found with id 5f204c1920773bc2a9b77636 TypeError: Cannot read property 'pin' of null","level":"error","service":"user-service","timestamp":"30-07-2020 15:32:37"}
