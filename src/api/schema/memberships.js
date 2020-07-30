@@ -41,7 +41,7 @@ const membershipSchema = mongoose.Schema({
         required: [true, 'Please enter your pin number'],
         trim: true
     },
-    balance: {
+      balance: {
         type: Number,
         validate: {
             validator: validation.balance,
@@ -50,7 +50,18 @@ const membershipSchema = mongoose.Schema({
         get: getPrice,
         set: setPrice,
         trim: true
-        
+    },
+    cardId: {
+        type: String,
+        validate: {
+            validator: validation.cardId,
+            message: props => `${props.value} incorrect card id`
+        },
+        trim: true
+    },
+    balance: {
+        type: Number,
+        trim: true
     }
 });
 

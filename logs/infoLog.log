@@ -124,3 +124,510 @@
 {"message":"5f204c1920773bc2a9b77636 balance updated successfully","level":"info","service":"user-service","timestamp":"30-07-2020 09:15:51"}
 {"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 09:23:05"}
 {"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 09:23:05"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 10:49:39"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 10:49:39"}
+{"message":"Member 5f2297b5ea352a483eb8057c created","level":"info","service":"user-service","timestamp":"30-07-2020 10:49:42"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 10:49:45"}
+{"message":"Member with id 5f204c1920773bc2a9b77636 found","level":"info","service":"user-service","timestamp":"30-07-2020 10:49:47"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 10:49:47"}
+{"message":"5f204c1920773bc2a9b77636 balance updated successfully","level":"info","service":"user-service","timestamp":"30-07-2020 10:49:50"}
+{"message":"Member with id 5f204c1920773bc2a9b77636 found","level":"info","service":"user-service","timestamp":"30-07-2020 10:49:53"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 10:49:53"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 10:56:51"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 10:56:51"}
+{"message":"Unable to complete request ReferenceError: arr is not defined","level":"error","service":"user-service","timestamp":"30-07-2020 10:57:02"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 10:57:20"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 10:57:20"}
+{"message":"Unable to complete request TypeError: Cannot read property 'length' of undefined","level":"error","service":"user-service","timestamp":"30-07-2020 10:57:24"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 10:58:42"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 10:58:42"}
+{"message":"Unable to complete request ReferenceError: valiation is not defined","level":"error","service":"user-service","timestamp":"30-07-2020 10:58:46"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 10:59:21"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 10:59:21"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 10:59:30"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 10:59:30"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 10:59:33"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 10:59:33"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:00:16"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:00:16"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:00:19"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:00:19"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:00:33"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:00:33"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:00:41"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:00:41"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:00:47"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:00:47"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:00:53"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:00:53"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:01:06"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:01:06"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:01:31"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:01:31"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:01:39"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:01:39"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:01:45"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:01:45"}
+{"message":"Unable to complete request ReferenceError: validation is not defined","level":"error","service":"user-service","timestamp":"30-07-2020 11:01:51"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:02:09"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:02:09"}
+{"message":"Unable to complete request TypeError: Cannot read property 'length' of undefined","level":"error","service":"user-service","timestamp":"30-07-2020 11:02:11"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:02:53"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:02:53"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:02:57"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:02:57"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:03:02"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:03:02"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:03:05"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:03:05"}
+{"message":"Unable to complete request TypeError: Cannot read property 'length' of undefined","level":"error","service":"user-service","timestamp":"30-07-2020 11:03:08"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:03:17"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:03:17"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:03:19"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:03:19"}
+{"message":"Unable to complete request TypeError: Cannot read property 'length' of undefined","level":"error","service":"user-service","timestamp":"30-07-2020 11:03:22"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:03:56"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:03:56"}
+{"message":"Unable to complete request TypeError: Cannot read property 'len' of undefined","level":"error","service":"user-service","timestamp":"30-07-2020 11:03:59"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:04:05"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:04:05"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:06:41"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:06:41"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:06:43"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:06:43"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:10:11"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:10:11"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:10:51"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:10:51"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:10:56"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:10:56"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:10:57"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:10:57"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:03"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:03"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:17"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:17"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:24"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:24"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:25"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:25"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:30"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:30"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:38"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:38"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:40"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:40"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:44"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:44"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:46"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:46"}
+{"message":"Member 5f229ce8da7c044d200d6107 created","level":"info","service":"user-service","timestamp":"30-07-2020 11:11:52"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:12:18"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:12:18"}
+{"message":"Member 5f229d05a3b9974d2b02bc63 created","level":"info","service":"user-service","timestamp":"30-07-2020 11:12:21"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:12:27"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:12:27"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:14:18"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:14:18"}
+{"message":"Member 5f229d7d07ac234d8f491242 created","level":"info","service":"user-service","timestamp":"30-07-2020 11:14:21"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:14:34"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:14:34"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:14:50"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:14:50"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:14:54"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:14:54"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:14:56"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:14:56"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:15:03"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:15:03"}
+{"message":"Member 5f229daa911d564ddca80fb3 created","level":"info","service":"user-service","timestamp":"30-07-2020 11:15:07"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:16:29"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:16:29"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:16:39"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:16:39"}
+{"message":"Wrong format to create new member ValidationError: cardId:  incorrect card id","level":"error","service":"user-service","timestamp":"30-07-2020 11:16:43"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:05"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:05"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:08"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:08"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:09"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:09"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:12"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:12"}
+{"message":"Wrong format to create new member ValidationError: cardId:  incorrect card id","level":"error","service":"user-service","timestamp":"30-07-2020 11:17:16"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:45"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:45"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:47"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:47"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:53"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:17:53"}
+{"message":"Member 5f229e64b3282b4e7a940aea created","level":"info","service":"user-service","timestamp":"30-07-2020 11:18:12"}
+{"message":"Member with id 5f229e64b3282b4e7a940aea found","level":"info","service":"user-service","timestamp":"30-07-2020 11:18:49"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 11:18:49"}
+{"message":"Wrong format to update a member","level":"error","service":"user-service","timestamp":"30-07-2020 11:19:00"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 11:19:44"}
+{"message":"Member with id 5f229e64b3282b4e7a940aea found","level":"info","service":"user-service","timestamp":"30-07-2020 11:19:58"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 11:19:58"}
+{"message":"Wrong format to update a member","level":"error","service":"user-service","timestamp":"30-07-2020 11:20:04"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:20:14"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:20:14"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:20:32"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:20:32"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:20:36"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:20:36"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:20:40"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:20:40"}
+{"message":"Wrong format to update a member","level":"error","service":"user-service","timestamp":"30-07-2020 11:20:45"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:21:00"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:21:00"}
+{"message":"Wrong format to update a member ValidationError: balance: Cast to Number failed for value \"NaN\" at path \"balance\"","level":"error","service":"user-service","timestamp":"30-07-2020 11:21:00"}
+{"message":"Wrong format to update a member ValidationError: balance: Cast to Number failed for value \"NaN\" at path \"balance\"","level":"error","service":"user-service","timestamp":"30-07-2020 11:21:17"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:22:03"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:22:03"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:22:04"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:22:04"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:22:09"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:22:09"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:22:10"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:22:10"}
+{"message":"Wrong format to update a member ValidationError: balance: Cast to Number failed for value \"NaN\" at path \"balance\"","level":"error","service":"user-service","timestamp":"30-07-2020 11:22:14"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:22:56"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:22:56"}
+{"message":"Wrong format to update a member ValidationError: balance: Cast to Number failed for value \"NaN\" at path \"balance\"","level":"error","service":"user-service","timestamp":"30-07-2020 11:22:59"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:23:32"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:23:32"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:23:35"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:23:35"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:23:52"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:23:52"}
+{"message":"5f229e64b3282b4e7a940aea balance updated successfully","level":"info","service":"user-service","timestamp":"30-07-2020 11:23:54"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:24:53"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:24:53"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:24:54"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:24:54"}
+{"message":"5f229e64b3282b4e7a940aea balance updated successfully","level":"info","service":"user-service","timestamp":"30-07-2020 11:24:57"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:25:18"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:25:18"}
+{"message":"5f229e64b3282b4e7a940aea balance updated successfully","level":"info","service":"user-service","timestamp":"30-07-2020 11:25:20"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:25:46"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:25:46"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:26:09"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:26:09"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:27:52"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:27:52"}
+{"message":"No card found with id gYxxjiJkqH8h8mgV CastError: Cast to ObjectId failed for value \"gYxxjiJkqH8h8mgV\" at path \"_id\" for model \"Member\"","level":"error","service":"user-service","timestamp":"30-07-2020 11:28:14"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:06"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:06"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:08"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:08"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:19"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:19"}
+{"message":"Member with id gYxxjiJkqH8h8mgV found","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:26"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:26"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:42"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:42"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:50"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:50"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:55"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:55"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:58"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:29:58"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:30:11"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:30:11"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:30:36"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:30:36"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:30:40"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:30:40"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:30:43"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:30:43"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:30:46"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:30:46"}
+{"message":"Member 5f22a16087274c517b9fd7c6 created","level":"info","service":"user-service","timestamp":"30-07-2020 11:30:56"}
+{"message":"Member with id undefined not found","level":"error","service":"user-service","timestamp":"30-07-2020 11:31:06"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:31:23"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:31:23"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:31:28"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:31:28"}
+{"message":"Member undefined found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 11:31:31"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:32:18"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:32:18"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:32:42"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:32:43"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:32:44"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:32:44"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:33:00"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:33:00"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:33:06"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:33:06"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:33:08"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:33:08"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:33:17"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:33:17"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:34:39"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:34:39"}
+{"message":"Wrong format to update a member ValidationError: pin: Please enter your pin number, empid: 4 please enter a valid employee ID","level":"error","service":"user-service","timestamp":"30-07-2020 11:34:57"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:35:55"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:35:55"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:36:04"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:36:04"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:36:07"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:36:07"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:36:20"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:36:20"}
+{"message":"Wrong format to update a member ValidationError: pin: Please enter your pin number, empid: 4 please enter a valid employee ID","level":"error","service":"user-service","timestamp":"30-07-2020 11:36:23"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:36:48"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:36:48"}
+{"message":"Wrong format to update a member ValidationError: empid: 4 please enter a valid employee ID","level":"error","service":"user-service","timestamp":"30-07-2020 11:36:51"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:37:01"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:37:01"}
+{"message":"Wrong format to update a member ValidationError: empid: 4 please enter a valid employee ID","level":"error","service":"user-service","timestamp":"30-07-2020 11:37:04"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:37:29"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:37:29"}
+{"message":"Wrong format to update a member ValidationError: empid: 4 please enter a valid employee ID","level":"error","service":"user-service","timestamp":"30-07-2020 11:37:29"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:37:50"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:37:50"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:37:53"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:37:53"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:38:07"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:38:07"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:38:22"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:38:22"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:38:24"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:38:24"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:38:55"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:38:55"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:44:27"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:44:27"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 11:44:50"}
+{"message":"cvLVkoImd7qGiguT balance updated successfully","level":"info","service":"user-service","timestamp":"30-07-2020 11:45:02"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:45:27"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:45:27"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:45:31"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:45:31"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:45:56"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:45:56"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:46:02"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:46:02"}
+{"message":"cvLVkoImd7qGiguT balance updated successfully","level":"info","service":"user-service","timestamp":"30-07-2020 11:46:12"}
+{"message":"New Card qKsUsgfiwfg1ObpT created","level":"info","service":"user-service","timestamp":"30-07-2020 11:46:58"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:47:35"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:47:35"}
+{"message":"New Card 2m50NwqIllMUmE9g created","level":"info","service":"user-service","timestamp":"30-07-2020 11:47:47"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:48:08"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:48:08"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:48:17"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:48:17"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:48:25"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:48:25"}
+{"message":"New Card Ban5Do3Hi5olAhNr created","level":"info","service":"user-service","timestamp":"30-07-2020 11:48:41"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:11"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:11"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:15"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:15"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:21"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:21"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:25"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:25"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:29"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:29"}
+{"message":"New Card ghHRY1K71qrCfCtp created","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:35"}
+{"message":"cvLVkoImd7qGiguT balance updated successfully","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:42"}
+{"message":"Member with id cvLVkoImd7qGiguT found","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:54"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 11:49:54"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:00:01"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:00:01"}
+{"message":"New Card 33e5eRXMU0PDxjVO created","level":"info","service":"user-service","timestamp":"30-07-2020 12:00:09"}
+{"message":"Member with id 33e5eRXMU0PDxjVO found","level":"info","service":"user-service","timestamp":"30-07-2020 12:00:20"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 12:00:20"}
+{"message":"33e5eRXMU0PDxjVO balance updated successfully","level":"info","service":"user-service","timestamp":"30-07-2020 12:00:29"}
+{"message":"Member with id 33e5eRXMU0PDxjVO found","level":"info","service":"user-service","timestamp":"30-07-2020 12:00:36"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 12:00:36"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 12:00:52"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 12:01:33"}
+{"message":"No members found","level":"error","service":"user-service","timestamp":"30-07-2020 12:04:02"}
+{"message":"Wrong format to create new member ValidationError: empid: 1 please enter a valid employee ID","level":"error","service":"user-service","timestamp":"30-07-2020 12:04:53"}
+{"message":"Wrong format to create new member ValidationError: empid: 1 please enter a valid employee ID","level":"error","service":"user-service","timestamp":"30-07-2020 12:05:01"}
+{"message":"Wrong format to create new member ValidationError: empid: 1 please enter a valid employee ID","level":"error","service":"user-service","timestamp":"30-07-2020 12:05:07"}
+{"message":"Wrong format to create new member ValidationError: empid: 1 please enter a valid employee ID","level":"error","service":"user-service","timestamp":"30-07-2020 12:05:13"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:05:44"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:05:44"}
+{"message":"Wrong format to create new member ValidationError: empid: 1 please enter a valid employee ID","level":"error","service":"user-service","timestamp":"30-07-2020 12:05:58"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:22"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:22"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:24"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:24"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:29"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:29"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:33"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:33"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:52"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:52"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:55"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:55"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:56"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:56"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:59"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:06:59"}
+{"message":"Wrong format to create new member ValidationError: empid: Invalid regular expression: /^[1-9]{1,3}+$/: Nothing to repeat","level":"error","service":"user-service","timestamp":"30-07-2020 12:07:06"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:07:17"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:07:17"}
+{"message":"New Card 7uAGicgi92WWqayu created","level":"info","service":"user-service","timestamp":"30-07-2020 12:07:17"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 12:07:35"}
+{"message":"New Card JTMWCJgKv8MPWxlW created","level":"info","service":"user-service","timestamp":"30-07-2020 12:08:11"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 12:08:16"}
+{"message":"Member with id JTMWCJgKv8MPWxlW found","level":"info","service":"user-service","timestamp":"30-07-2020 12:08:27"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 12:08:27"}
+{"message":"JTMWCJgKv8MPWxlW balance updated successfully","level":"info","service":"user-service","timestamp":"30-07-2020 12:08:34"}
+{"message":"Member with id JTMWCJgKv8MPWxlW found","level":"info","service":"user-service","timestamp":"30-07-2020 12:08:40"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 12:08:40"}
+{"message":"Card undefined found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:08:52"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:09:29"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:09:29"}
+{"message":"New Card Pl4nu2UviGTAtczh created","level":"info","service":"user-service","timestamp":"30-07-2020 12:09:36"}
+{"message":"Card undefined found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:09:45"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:24"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:24"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:28"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:28"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:36"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:36"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:38"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:38"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:45"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:45"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:52"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:52"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:58"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:10:58"}
+{"message":"New Card 528ad9PZoYHunWCw created","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:03"}
+{"message":"Unable to complete request TypeError: Cannot read property 'cardId' of null","level":"error","service":"user-service","timestamp":"30-07-2020 12:11:10"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:25"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:25"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:32"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:32"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:38"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:38"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:46"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:46"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:47"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:47"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:49"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:49"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:52"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:11:52"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:12:08"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:12:08"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:12:14"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:12:14"}
+{"message":"Card found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:12:29"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:12:54"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:12:54"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:12:58"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:12:58"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:13:04"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:13:04"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:13:06"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:13:06"}
+{"message":"Unable to complete request TypeError: Member.findOneA is not a function","level":"error","service":"user-service","timestamp":"30-07-2020 12:13:13"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:13:23"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:13:23"}
+{"message":"Card found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:13:24"}
+{"message":"New Card n0yKCTVZtHEwYb9O created","level":"info","service":"user-service","timestamp":"30-07-2020 12:13:43"}
+{"message":"Card found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:13:55"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:14:27"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:14:27"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:14:36"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:14:36"}
+{"message":"Unable to complete request TypeError: Cannot read property 'cardId' of null","level":"error","service":"user-service","timestamp":"30-07-2020 12:14:41"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:15:45"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:15:45"}
+{"message":"Card found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:15:52"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 12:15:56"}
+{"message":"Card found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:16:11"}
+{"message":"Member with id n0yKCTVZtHEwYb9O found","level":"info","service":"user-service","timestamp":"30-07-2020 12:16:20"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 12:16:20"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:16:22"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:16:22"}
+{"message":"Card found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:16:34"}
+{"message":"New Card Qf4pxv5yhCqMU1YY created","level":"info","service":"user-service","timestamp":"30-07-2020 12:16:52"}
+{"message":"Card found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:17:07"}
+{"message":"Member with id Qf4pxv5yhCqMU1YY found","level":"info","service":"user-service","timestamp":"30-07-2020 12:17:13"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 12:17:13"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:17:30"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:17:30"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:17:32"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:17:32"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:17:36"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:17:36"}
+{"message":"Card found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:17:44"}
+{"message":"Member with id Qf4pxv5yhCqMU1YY found","level":"info","service":"user-service","timestamp":"30-07-2020 12:17:47"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 12:17:47"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 12:17:51"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:19:10"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:19:10"}
+{"message":"Card found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:19:17"}
+{"message":"Member with id Qf4pxv5yhCqMU1YY found","level":"info","service":"user-service","timestamp":"30-07-2020 12:19:22"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 12:19:22"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:20:18"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:20:18"}
+{"message":"Card found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:20:28"}
+{"message":"Member with id Qf4pxv5yhCqMU1YY found","level":"info","service":"user-service","timestamp":"30-07-2020 12:20:32"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 12:20:32"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:21:00"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:21:00"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:21:43"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:21:43"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:21:59"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:21:59"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:22:04"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:22:04"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:22:22"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:22:22"}
+{"message":"Member with id Qf4pxv5yhCqMU1YY found","level":"info","service":"user-service","timestamp":"30-07-2020 12:22:29"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 12:22:29"}
+{"message":"Card found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:22:34"}
+{"message":"Member with id Qf4pxv5yhCqMU1YY found","level":"info","service":"user-service","timestamp":"30-07-2020 12:22:38"}
+{"message":"No card found with id Qf4pxv5yhCqMU1YY TypeError: Cannot read property 'pin' of null","level":"error","service":"user-service","timestamp":"30-07-2020 12:22:38"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:23:33"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:23:33"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:23:39"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:23:39"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:23:43"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:23:43"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:24:06"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:24:06"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:24:45"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:24:45"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:25:02"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:25:02"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:25:29"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:25:29"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:25:31"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:25:31"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:25:34"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:25:34"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 12:26:16"}
+{"message":"n0yKCTVZtHEwYb9O balance updated successfully","level":"info","service":"user-service","timestamp":"30-07-2020 12:26:27"}
+{"message":"New Card Wzi12T8R8ZOmj8Nv created","level":"info","service":"user-service","timestamp":"30-07-2020 12:26:56"}
+{"message":"Member with id Wzi12T8R8ZOmj8Nv found","level":"info","service":"user-service","timestamp":"30-07-2020 12:27:18"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 12:27:18"}
+{"message":"Wzi12T8R8ZOmj8Nv balance updated successfully","level":"info","service":"user-service","timestamp":"30-07-2020 12:27:24"}
+{"message":"Card Wzi12T8R8ZOmj8Nv found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 12:27:32"}
+{"message":"Member with id Wzi12T8R8ZOmj8Nv found","level":"info","service":"user-service","timestamp":"30-07-2020 12:27:35"}
+{"message":"No card found with id Wzi12T8R8ZOmj8Nv TypeError: Cannot read property 'pin' of null","level":"error","service":"user-service","timestamp":"30-07-2020 12:27:35"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 12:27:40"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:34:50"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:34:50"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:34:52"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:34:52"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"30-07-2020 12:37:44"}
+{"message":"Member with id n0yKCTVZtHEwYb9O found","level":"info","service":"user-service","timestamp":"30-07-2020 12:37:53"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"30-07-2020 12:37:53"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:42:30"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:42:30"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:42:31"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:42:31"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:46:34"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:46:34"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"30-07-2020 12:46:34"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"30-07-2020 12:46:34"}

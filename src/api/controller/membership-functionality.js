@@ -6,6 +6,7 @@ const jwt = require("jsonwebtoken");
 // const { number } = require('yargs');
 // const { isNumber } = require('util');
 const logger = require('../../utilities/logger');
+const char = require('../schema/schema-validation')
 
 async function getAllMemberships(req, res) {
     try {
@@ -28,11 +29,11 @@ async function getAllMemberships(req, res) {
         });
     };
 };
-async function getMemberById(req, res) {
+async function getMemberByCardId(req, res) {
     let returnedMember
     try {
-        returnedMember = await Member.findById(req.params.id)
-        logger.info(`Member with id ${req.params.id} found`)
+        returnedMember = await Member.findOne({cardId: req.params.cardId})
+        logger.info(`Member with id ${req.params.cardId} found`)
         returnedPin = comparePin(req.body.pin, returnedMember.pin)
         if(returnedPin) {
             logger.info(`Member authentication successful`);
@@ -48,7 +49,7 @@ async function getMemberById(req, res) {
     }
     catch(err) {
         if(!returnedMember) {
-            logger.error(`No card found with id ${req.params.id} ${err}`);
+            logger.error(`No card found with id ${req.params.cardId} ${err}`);
             res.status(404).json({
                 "message": `Card not found. Please register your card. ${err}`
             });
@@ -61,16 +62,20 @@ async function getMemberById(req, res) {
     };
 };
 async function createNewMember(req, res) {
+    let balance = 0
     const newMember = new Member({
-        empid: req.body.empid,
+        empid: 0 + req.body.empid,
         name: req.body.name,
         email: req.body.email,
         mobile: req.body.mobile,
         pin: req.body.pin,
-        balance: req.body.balance
+        balance: balance
     });
+    console.log(newMember)
     try{
         let hash = bcrypt.hashSync(req.body.pin, 10);
+        let cardId = cardIdGenerator(16)
+        newMember.cardId = cardId
         newMember.pin = hash;
         newMember.validate((err) => {
             if(err) {
@@ -79,7 +84,7 @@ async function createNewMember(req, res) {
                     "message": `Wrong format to create a new member ${err}`
                 });
             }else {
-                logger.info(`Member ${newMember.id} created`)
+                logger.info(`New Card ${newMember.cardId} created`)
                 newMember.save();
                 let message = `Hello ${newMember.name}`
                 res.status(201).send(message + ' ' + newMember);
@@ -95,22 +100,23 @@ async function createNewMember(req, res) {
 };
 async function updateMember(req, res) {
    let newBalance = new Number().toFixed(2)
-   const foundMember = await Member.findById(req.params.id)
+   const foundMember = await Member.findOne({cardId: req.params.cardId})
    foundMember.empid = req.body.empid || foundMember.empid
    foundMember.name = req.body.name || foundMember.name
    foundMember.email = req.body.email || foundMember.email
    foundMember.mobile = req.body.mobile || foundMember.mobile
-    newBalance = parseInt((req.body.balance).toFixed(2)) + parseInt(foundMember.balance)
+   newBalance = parseInt((req.body.balance).toFixed(2)) + parseInt(foundMember.balance)
     foundMember.balance = newBalance || foundMember.balance
+    foundMember.cardId = req.body.cardId || foundMember.cardId
    try{
        foundMember.validate((err)  => {
            if(err) {
-               logger.error(`Wrong format to update a member`);
+               logger.error(`Wrong format to update a member ${err}`);
                res.status(400).json({
                   "message": `wrong format to update a member`
                });
            }else{
-               logger.info(`${foundMember.id} balance updated successfully`)
+               logger.info(`${foundMember.cardId} balance updated successfully`)
                foundMember.save()
                res.status(200).send(foundMember)
            }
@@ -125,15 +131,15 @@ async function updateMember(req, res) {
 };
 async function deleteMember(req, res) {
     try{
-        await Member.findByIdAndDelete(req.params.id);
-        logger.info(`Member ${req.params.id} found and deleted`);
+        await Member.findOneAndDelete({cardId: req.params.cardId});
+        logger.info(`Card ${req.params.cardId} found and deleted`);
         res.status(200).json({
-            "message": `Member ${req.params.id} has been sucessfully deleted.`
+            "message": `Card ${req.params.cardId} has been sucessfully deleted.`
         });
     }
     catch(err) {
         if(err.name == 'CastError') {
-            logger.error(`Member with id ${req.params.id} not found`);
+            logger.error(`Member with id ${req.params.cardId} not found`);
             res.status(404).json({
                 "message": `No member found. ${err}`
             })
@@ -184,9 +190,16 @@ async function comparePin(userPin, hash) {
     })
 }
 
+function cardIdGenerator(length) {
+    var chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',
+        result=""
+    for (var i = length; i > 0; --i)
+        result += chars[Math.round(Math.random() * (chars.length - 1))]
+    return result
+}
 module.exports = {
     getAllMemberships,
-    getMemberById,
+    getMemberByCardId,
     createNewMember,
     updateMember,
     deleteMember,

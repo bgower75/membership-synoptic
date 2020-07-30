@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const Router = express.Router;
 const controller = new Router();
-const { getAllMemberships, getMemberById, createNewMember, deleteMember, updateMember, authenticate } = require('./membership-functionality')
+const { getAllMemberships, getMemberByCardId, createNewMember, deleteMember, updateMember, authenticate } = require('./membership-functionality')
 
 // const userService = require('./user.service');
 // const logger = require('../../utils/logger');
@@ -16,16 +16,16 @@ controller.post('/', async(req, res) => {
 controller.get('/', async(req, res) => {
     getAllMemberships(req, res);
 });
-controller.get('/:id', async(req, res) => {
-    getMemberById(req, res);
+controller.get('/:cardId', async(req, res) => {
+    getMemberByCardId(req, res);
 });
 controller.post('/authenticate', async(req, res) => {
     authenticate(req,res);
 })
-controller.put('/:id', async(req,res) => {
+controller.put('/:cardId', async(req,res) => {
     updateMember(req, res);
 });
-controller.delete('/:id', async(req, res) => {
+controller.delete('/:cardId', async(req, res) => {
     deleteMember(req, res);
 });
 
