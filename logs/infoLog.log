@@ -648,3 +648,61 @@
 {"message":"Card 5f1fce800d0a516c94ce0b6f found and deleted","level":"info","service":"user-service","timestamp":"30-07-2020 15:32:37"}
 {"message":"Member with id 5f204c1920773bc2a9b77636 found","level":"info","service":"user-service","timestamp":"30-07-2020 15:32:37"}
 {"message":"No card found with id 5f204c1920773bc2a9b77636 TypeError: Cannot read property 'pin' of null","level":"error","service":"user-service","timestamp":"30-07-2020 15:32:37"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:42:33"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:42:33"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:43:54"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:43:54"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:44:03"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:44:03"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:44:07"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:44:07"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:44:31"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:44:31"}
+{"message":"New Card 4mMzJE6Kgu8D5EsH created","level":"info","service":"user-service","timestamp":"31-07-2020 10:44:32"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:44:58"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:44:58"}
+{"message":"New Card xVmrNcPPZNxsrIJs created","level":"info","service":"user-service","timestamp":"31-07-2020 10:45:00"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"31-07-2020 10:45:03"}
+{"message":"Member with id OuLAPJYTCOSOcxWT found","level":"info","service":"user-service","timestamp":"31-07-2020 10:45:06"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"31-07-2020 10:45:06"}
+{"message":"OuLAPJYTCOSOcxWT balance updated successfully","level":"info","service":"user-service","timestamp":"31-07-2020 10:45:18"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:50:08"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:50:08"}
+{"message":"the error is ...MongooseServerSelectionError: getaddrinfo ENOTFOUND mongo mongo:27019","level":"error","service":"user-service","timestamp":"31-07-2020 10:50:54"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:52:33"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:52:33"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:52:52"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:52:52"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:53:00"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:53:00"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:53:09"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:53:09"}
+{"message":"OuLAPJYTCOSOcxWT balance updated successfully","level":"info","service":"user-service","timestamp":"31-07-2020 10:53:24"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:53:36"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:53:36"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:58:44"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:58:44"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:58:45"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:58:45"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:58:50"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:58:50"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:59:46"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:59:46"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 10:59:48"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 10:59:48"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 11:14:47"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 11:14:47"}
+{"message":"connected to database","level":"info","service":"user-service","timestamp":"31-07-2020 11:15:07"}
+{"message":"Server is running on port 3010","level":"info","service":"user-service","timestamp":"31-07-2020 11:15:07"}
+{"message":"New Card pvmKazH6oc7lludW created","level":"info","service":"user-service","timestamp":"31-07-2020 11:15:15"}
+{"message":"Member with id pvmKazH6oc7lludW found","level":"info","service":"user-service","timestamp":"31-07-2020 11:15:24"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"31-07-2020 11:15:24"}
+{"message":"pvmKazH6oc7lludW balance updated successfully","level":"info","service":"user-service","timestamp":"31-07-2020 11:15:37"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"31-07-2020 11:15:43"}
+{"message":"Card pvmKazH6oc7lludW found and deleted","level":"info","service":"user-service","timestamp":"31-07-2020 11:15:52"}
+{"message":"New Card SlrtUyWNcPQhC7Ai created","level":"info","service":"user-service","timestamp":"31-07-2020 11:52:52"}
+{"message":"Members found","level":"info","service":"user-service","timestamp":"31-07-2020 11:53:00"}
+{"message":"Member with id SlrtUyWNcPQhC7Ai found","level":"info","service":"user-service","timestamp":"31-07-2020 11:53:05"}
+{"message":"Member authentication successful","level":"info","service":"user-service","timestamp":"31-07-2020 11:53:05"}
+{"message":"SlrtUyWNcPQhC7Ai balance updated successfully","level":"info","service":"user-service","timestamp":"31-07-2020 11:53:11"}
+{"message":"Card SlrtUyWNcPQhC7Ai found and deleted","level":"info","service":"user-service","timestamp":"31-07-2020 11:53:15"}
